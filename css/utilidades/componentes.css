@@ -1,0 +1,24 @@
+@import './cores.css';
+
+.btn{
+  display: inline-block;
+  background: linear-gradient(to bottom, var(--cor-p1), var(--cor-p2));
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0 ,0 ,0 , .1);
+  padding: 16px 32px;
+  color: #332200;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1.33;   
+}
+
+.btn:hover{
+  background: linear-gradient(#f7bb2f, #a56401);
+}
+
+
+@media(max-width: 600px){
+  .btn{
+    padding: 12px 24px;
+    font-size: 1rem; }
+}

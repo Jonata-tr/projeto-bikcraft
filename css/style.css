@@ -1,6 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
 
+/* REUTILIZAVEIS */
+@import './utilidades/componentes.css';
+@import './utilidades/tipografia.css';
+@import './utilidades/cores.css';
 @import './header.css';
+
+/* HOME */
+@import './home/introducao.css';
+@import url('./bicicletas/bicicletas-lista.css');
 
 *,
 *::before,
@@ -9,6 +17,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  color: var(--cor-11);
+}
+
+body{
+  height: 8000px;
 }
 
 a{
@@ -18,3 +31,15 @@ a{
 ul{
   list-style: none;
 }
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+img[src$='.jpg']{
+  border-radius: 4px;
+}
+
+
+
