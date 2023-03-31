@@ -1,10 +1,8 @@
 /* Font extra grande (titulo)  */
 /* Font =  1 (titulo) 2 (corpo) / m = (medium --> Smal, Large, Xtra large, XtraXtra large) / b = (Bold --> Medium e nada = regular) */
 .font-1-xxl-b{
-  margin-bottom: 32px; 
-
   /* Peso, tamanho da font e linha, e font-family */
-  font: 600 4rem/1.125 "Poppins", sans-serif;
+  font: 600 4.2rem/1.125 "Poppins", sans-serif;
 }
 
 .font-1-xl{
