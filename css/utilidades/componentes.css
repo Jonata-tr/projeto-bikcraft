@@ -15,11 +15,21 @@
   color: var(--color-p5);
   font-weight: bold;
   font-size: 1.1rem;
-  line-height: 1.33;   
+  line-height: 1.33; 
+  max-width: max-content;
 }
 
 .btn:hover{
   background: linear-gradient(#f7bb2f, #a56401);
+}
+
+.btn.sec{
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.btn.sec:hover{
+  background: var(--cor-8);
 }
 
 .link{
@@ -42,6 +52,20 @@
   color: var(--cor-0);
 }
 
+.titulo-bg{
+  padding: 60px 20px;
+  background-color: var(--cor-11);
+}
+
+.titulo-container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.titulo p{
+  margin-bottom: 4px;
+}
 
 .descricao{
   display: flex;
@@ -57,6 +81,19 @@
 .descricao img{
   width: 24px;
 }
+
+@media(max-width:800px){
+  .titulo-bg{
+    padding: 40px 20px;
+  }
+
+  .titulo p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
+
 @media(max-width: 600px){
   .btn{
     padding: 12px 24px;
