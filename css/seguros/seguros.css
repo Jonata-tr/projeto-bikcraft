@@ -10,6 +10,10 @@
   clip-path: inset(0 -100vmax);
 }
 
+#body-seguros .seguros{
+  padding-top: 0;
+}
+
 .seguros h2{
   grid-column: 1/-1;
 }
