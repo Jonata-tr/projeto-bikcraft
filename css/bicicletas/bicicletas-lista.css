@@ -1,5 +1,5 @@
 .bicicletas-lista{
-  padding: 0 0 32px;
+  padding: 60px 20px;
 }
 
 .bicicletas-lista ul{
@@ -10,6 +10,10 @@
   padding: 0 20px 20px;
   margin: 0 auto;
   overflow-x: auto;
+}
+
+#body-bicicleta .bicicletas-lista ul{
+  padding: 0 0 20px;
 }
 
 .bicicletas-lista li{

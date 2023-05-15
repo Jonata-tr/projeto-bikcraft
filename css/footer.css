@@ -8,6 +8,15 @@
   gap: 40px;
 }
 
+.footer-bg{
+  background: var(--cor-12);
+}
+
+#body-bicicleta .footer{
+  box-shadow: none;
+  clip-path: none;
+}
+
 .footer h3{
   margin-bottom: 32px;
 }

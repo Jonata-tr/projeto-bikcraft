@@ -2,11 +2,12 @@
 
 /* REUTILIZAVEIS */
 @import './utilidades/componentes.css';
+@import './utilidades/formulario.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
 @import './utilidades/margin.css';
 @import './header.css';
-@import url('./footer.css');
+@import './footer.css';
 
 /* HOME */
 @import './home/introducao.css';
@@ -18,10 +19,18 @@
 @import './bicicletas/bicicletas.css';
 @import './bicicletas/bicicletas-lista.css';
 
+/* BICICLETA (PRODUCT PAGE) */
+@import './bicicleta/bicicleta.css';
+@import './bicicleta/seguro.css';
+
 /* Seguros */
 @import './seguros/seguros.css';
 @import './seguros/vantagens.css';
 @import './seguros/perguntas.css';
+
+/* CONTATO */
+@import '../css/contato/contato.css';
+@import '../css/contato/lojas.css';
 
 /* TERMOS */
 @import './termos/termos.css';
@@ -44,7 +53,8 @@ ul{
   list-style: none;
 }
 
-li{
+li,
+p{
   color: inherit;
 }
 
@@ -55,6 +65,10 @@ img{
 
 img[src$='.jpg']{
   border-radius: 4px;
+}
+
+span{
+  color: inherit;
 }
 
 
