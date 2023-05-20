@@ -27,6 +27,12 @@
   padding: 32px;
 }
 
+.lojas-tempo{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .lojas-conteudo h3,
 .lojas-tempo{
   grid-column: 1/-1;

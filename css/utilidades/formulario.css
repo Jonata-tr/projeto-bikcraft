@@ -37,6 +37,21 @@
   box-shadow: 0 0 0 2px #fea;
 }
 
+.form .orcamento-termos{
+  display: flex;
+}
+
+input[type='checkbox']{
+  width: 24px;
+  height: 24px;
+  accent-color: var(--cor-p1);
+  margin-right: 12px;
+}
+input[type='checkbox'] + a{
+  margin-left: 5px;
+  text-decoration: underline;
+}
+
 @media(max-width:600px){
   .form{
     grid-template-columns: 1fr;
