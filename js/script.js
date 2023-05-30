@@ -29,3 +29,17 @@ perguntas.forEach(element => {
 
   })
 })
+
+// Galeria de imagem das bicicletas
+
+const bicicletasGaleria = document.querySelectorAll('.bicicleta-img img')
+
+bicicletasGaleria.forEach(img => {
+  img.addEventListener('click', () => {
+    const ativa = document.querySelector(".ativoI")
+    const holder = ativa.src
+  
+    ativa.src = img.src;
+    img.src = holder;
+  })
+})
